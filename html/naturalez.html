@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIP</title>
+    <!--Icono-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css"
+        integrity="sha512-9nqhm3FWfB00id4NJpxK/wV1g9P2QfSsEPhSSpT+6qrESP6mpYbTfpC+Jvwe2XY27K5mLwwrqYuzqMGK5yC9/Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--FONT Letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!--Estilo Css-->
+    <link rel="stylesheet" href="../css/subturismo.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="enlace">
+            <img src="../img/sip.jpeg" alt="logo" class="logo">
+        </a>
+    </header>
+
+    <nav class="menu">
+
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="ul">
+            <li class="item"><a href="../index.html">Inicio</a></li>
+            <li class="item"><a class="active" href="../html/turismo.html">Turismo</a>
+                <div class="cont">
+                    <ul class="desple">
+                        <br>
+                        <li class="sub-item"><a href="../html/mice.html">Mice</a></li>
+                        <br>
+                        <li class="sub-item"><a href="../html/cruceros.html">Cruceros</a></li>
+                        <br>
+                        <li class="sub-item"><a class="active" href="../html/naturalez.html">Naturaleza</a></li>
+                        <br>
+                        <li class="sub-item"><a href="../html/bienestar.html">Bienestar</a></li>
+                        </li>
+                        <br>
+                        <li class="sub-item"><a href="../html/entretenimiento.html">Entretenimiento</a></li>
+                        </li>
+                        <br>
+                    </ul>
+                </div>
+            </li>  
+        </ul>
+
+        </li>
+        <li class="item"><a  href="../html/hoteles.html">Hoteles</a></li>
+        <li class="item"><a href="../html/vuelos.html">Vuelos</a></li>
+        <li class="item"><a href="../html/destinos.html">Destinos</a></li>
+        <li class="item"><a href="../html/gastronomia.html">Gastronomía</a></li>
+        <li class="item"><a href="../html/empresarios.html">Empresarios</a></li>
+        </ul>
+
+        <div>
+            <button id="bdark"><i id="lunas" class="fas fa-moon"></i> </button>
+        </div>
+        <div id="buscador">
+            <i id="desbus" class="fas fa-search"></i>
+
+        </div>
+
+
+    </nav>
+    <div id="ctn-bus">
+        <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+    </div>
+    <ul id="box-search">
+        <li><a href="gastronomia.html"><i class="fas fa-search"></i>GASTRONOMÍA</a></li>
+        <li><a href="destinos.html"><i class="fas fa-search"></i>DESTINOS</a></li>
+        <li><a href="vuelos.html"><i class="fas fa-search"></i>VUELOS</a></li>
+        <li><a href="hoteles.html"><i class="fas fa-search"></i>HOTELES</a></li>
+    </ul>
+    <div id="cover-ctn-search"></div>
+
+    <main>
+        <div class="container">
+
+
+            <!--NOTICIA IMPORTANTE-->
+
+            <header class="showcasenaturaleza">
+                <h2>Sistema Informativo Punto de Encuentro</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, odio! Ea quasi explicabo
+                    necessitatibus
+                    vero minima natus voluptas sunt culpa a, ipsam ut adipisci tenetur ducimus officiis voluptates sed
+                    totam!
+                </p>
+                <a href="#" class="btn">Leer más <i class="fas fa-angle-double-right"></i></a>
+
+            </header>
+
+            <!--Sección de eventos o interes-->
+            <section class="post-list">
+                <div class="content">
+                    <article class="post">
+                        <div class="post-header">
+                            <div class="post-img-1"></div>
+                        </div>
+                        <div class="post-body">
+                            <span>27 de Septiembre || Playa Blanca</span>
+                            <h2>Titulo</h2>
+                            <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui culpa incidunt tempora minus totam
+                                voluptas veritatis vitae odio cupiditate amet possimus, dolorum quisquam. Porro eum eius
+                                perspiciatis, commodi quia iste!
+                            </p>
+                            <a href="#" class="post-link">Leer Más</a>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-header">
+                            <div class="post-img-2"></div>
+                        </div>
+                        <div class="post-body">
+                            <span>15 de Septiembre || Cartagena</span>
+                            <h2>Titulo</h2>
+                            <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui culpa incidunt tempora minus totam
+                                voluptas veritatis vitae odio cupiditate amet possimus, dolorum quisquam. Porro eum eius
+                                perspiciatis, commodi quia iste!
+                            </p>
+                            <a href="#" class="post-link">Leer Más</a>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-header">
+                            <div class="post-img-3"></div>
+                        </div>
+                        <div class="post-body">
+                            <span>8 de Septiembre || Cancún</span>
+                            <h2>Titulo</h2>
+                            <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui culpa incidunt tempora minus totam
+                                voluptas veritatis vitae odio cupiditate amet possimus, dolorum quisquam. Porro eum eius
+                                perspiciatis, commodi quia iste!
+                            </p>
+                            <a href="#" class="post-link">Leer Más</a>
+                        </div>
+                    </article>
+                </div>
+        
+            </section>
+
+          
+
+            <section class="post-list">
+                <div class="content">
+                    <article class="post">
+                        <div class="post-header">
+                            <div class="post-img-1"></div>
+                        </div>
+                        <div class="post-body">
+                            <span>27 de Septiembre || Playa Blanca</span>
+                            <h2>Titulo</h2>
+                            <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui culpa incidunt tempora minus totam
+                                voluptas veritatis vitae odio cupiditate amet possimus, dolorum quisquam. Porro eum eius
+                                perspiciatis, commodi quia iste!
+                            </p>
+                            <a href="#" class="post-link">Leer Más</a>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-header">
+                            <div class="post-img-2"></div>
+                        </div>
+                        <div class="post-body">
+                            <span>15 de Septiembre || Cartagena</span>
+                            <h2>Titulo</h2>
+                            <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui culpa incidunt tempora minus totam
+                                voluptas veritatis vitae odio cupiditate amet possimus, dolorum quisquam. Porro eum eius
+                                perspiciatis, commodi quia iste!
+                            </p>
+                            <a href="#" class="post-link">Leer Más</a>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-header">
+                            <div class="post-img-3"></div>
+                        </div>
+                        <div class="post-body">
+                            <span>8 de Septiembre || Cancún</span>
+                            <h2>Titulo</h2>
+                            <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui culpa incidunt tempora minus totam
+                                voluptas veritatis vitae odio cupiditate amet possimus, dolorum quisquam. Porro eum eius
+                                perspiciatis, commodi quia iste!
+                            </p>
+                            <a href="#" class="post-link">Leer Más</a>
+                        </div>
+                    </article>
+                </div>
+        
+            </section>
+            
+            <div class="slider">
+                <ul>
+                    <li>
+                        <img src="https://i.pinimg.com/originals/74/52/db/7452db2aafa89196801ef4fe680137e0.jpg">
+                    </li>
+                    <li>
+                        <img src="https://s1.1zoom.me/big0/160/354276-admin.jpg">
+                    </li>
+                    <li>
+                        <img src="https://mobimg.b-cdn.net/pic/v2/gallery/preview/goroda-pejzazh-ulicy-22228.jpg">
+                    </li>
+                    <li>
+                        <img src="http://2.bp.blogspot.com/-dNtt1v-HAOE/UFdRpT_pY9I/AAAAAAAABXw/gBzxja1td3Y/s1600/fondos-escritorio-ciudades-1280.jpg">
+                    </li>
+                </ul>
+            </div>
+
+            <section class="post-list">
+                <div class="content">
+                    <article class="post">
+                        <div class="post-header">
+                            <div class="post-img-1"></div>
+                        </div>
+                        <div class="post-body">
+                            <span>27 de Septiembre || Playa Blanca</span>
+                            <h2>Titulo</h2>
+                            <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui culpa incidunt tempora minus totam
+                                voluptas veritatis vitae odio cupiditate amet possimus, dolorum quisquam. Porro eum eius
+                                perspiciatis, commodi quia iste!
+                            </p>
+                            <a href="#" class="post-link">Leer Más</a>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-header">
+                            <div class="post-img-2"></div>
+                        </div>
+                        <div class="post-body">
+                            <span>15 de Septiembre || Cartagena</span>
+                            <h2>Titulo</h2>
+                            <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui culpa incidunt tempora minus totam
+                                voluptas veritatis vitae odio cupiditate amet possimus, dolorum quisquam. Porro eum eius
+                                perspiciatis, commodi quia iste!
+                            </p>
+                            <a href="#" class="post-link">Leer Más</a>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-header">
+                            <div class="post-img-3"></div>
+                        </div>
+                        <div class="post-body">
+                            <span>8 de Septiembre || Cancún</span>
+                            <h2>Titulo</h2>
+                            <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui culpa incidunt tempora minus totam
+                                voluptas veritatis vitae odio cupiditate amet possimus, dolorum quisquam. Porro eum eius
+                                perspiciatis, commodi quia iste!
+                            </p>
+                            <a href="#" class="post-link">Leer Más</a>
+                        </div>
+                    </article>
+                </div>
+        
+            </section>
+
+            <div class="slider">
+                <ul>
+                    <li>
+                        <img src="https://i.pinimg.com/originals/74/52/db/7452db2aafa89196801ef4fe680137e0.jpg">
+                    </li>
+                    <li>
+                        <img src="https://s1.1zoom.me/big0/160/354276-admin.jpg">
+                    </li>
+                    <li>
+                        <img src="https://mobimg.b-cdn.net/pic/v2/gallery/preview/goroda-pejzazh-ulicy-22228.jpg">
+                    </li>
+                    <li>
+                        <img src="http://2.bp.blogspot.com/-dNtt1v-HAOE/UFdRpT_pY9I/AAAAAAAABXw/gBzxja1td3Y/s1600/fondos-escritorio-ciudades-1280.jpg">
+                    </li>
+                </ul>
+            </div>
+
+            <section class="post-list">
+                <div class="content">
+                    <article class="post">
+                        <div class="post-header">
+                            <div class="post-img-1"></div>
+                        </div>
+                        <div class="post-body">
+                            <span>27 de Septiembre || Playa Blanca</span>
+                            <h2>Titulo</h2>
+                            <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui culpa incidunt tempora minus totam
+                                voluptas veritatis vitae odio cupiditate amet possimus, dolorum quisquam. Porro eum eius
+                                perspiciatis, commodi quia iste!
+                            </p>
+                            <a href="#" class="post-link">Leer Más</a>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-header">
+                            <div class="post-img-2"></div>
+                        </div>
+                        <div class="post-body">
+                            <span>15 de Septiembre || Cartagena</span>
+                            <h2>Titulo</h2>
+                            <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui culpa incidunt tempora minus totam
+                                voluptas veritatis vitae odio cupiditate amet possimus, dolorum quisquam. Porro eum eius
+                                perspiciatis, commodi quia iste!
+                            </p>
+                            <a href="#" class="post-link">Leer Más</a>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-header">
+                            <div class="post-img-3"></div>
+                        </div>
+                        <div class="post-body">
+                            <span>8 de Septiembre || Cancún</span>
+                            <h2>Titulo</h2>
+                            <p class="descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui culpa incidunt tempora minus totam
+                                voluptas veritatis vitae odio cupiditate amet possimus, dolorum quisquam. Porro eum eius
+                                perspiciatis, commodi quia iste!
+                            </p>
+                            <a href="#" class="post-link">Leer Más</a>
+                        </div>
+                    </article>
+                </div>
+        
+            </section>
+
+            <br>
+
+        <section>
+            <div class="Socios">
+                <h1 align="center">Nuestros clientes y socios</h1>
+            </div>
+            <div class="carrusel">
+                <div class="carrusel-items">
+                    <div class="carrusel-item">
+                        <a target="_blank" href="https://www.facebook.com/pst.santander.54"><img src="../img/pst.png"
+                                alt="" /></a>
+                    </div>
+                    <div class="carrusel-item">
+                        <a target="_blank" href="https://confetur.co"><img src="../img/confetur.jpg" alt="" /></a>
+                    </div>
+                    <div class="carrusel-item">
+                        <a target="_blank"
+                            href="https://www.decameron.com/es/co-promociones?utm_source=google&utm_medium=search&utm_campaign=co-decameron-enamorados_todo_incluido-perf&utm_content=promociones-conv-cpc-texto&gclid=Cj0KCQjw08aYBhDlARIsAA_gb0fuLbbAghMw_U6zrsn7dU7A7aaHBu7cb00JyzuRWNV5t1bUprvV54saAiScEALw_wcB"><img
+                                src="../img/decameron.png" alt="" /></a>
+                    </div>
+                    <div class="carrusel-item">
+                        <a target="_blank" href="https://www.fenalco.com.co/es/"><img src="../img/fenalco.png"
+                                alt="" /></a>
+                    </div>
+                    <div class="carrusel-item">
+                        <a target="_blank" href="https://www.sena.edu.co/es-co/Paginas/default.aspx"><img
+                                src="../img/sena.jpg" alt="" /></a>
+                    </div>
+                    <div class="carrusel-item">
+                        <a target="_blank" href="https://www.aerocali.com.co/easyfly-destinos/"><img
+                                src="../img/easyfly.png" alt="" /></a>
+                    </div>
+                    <div class="carrusel-item">
+                        <a target="_blank" href="https://www.cotelco.org"><img src="../img/cotelco.png" alt="" /></a>
+                    </div>
+                    <div class="carrusel-item">
+                        <a target="_blank" href="https://www.ecopetrol.com.co/wps/portal/"><img src="../img/ecopetrol.jpg"
+                                alt="" /></a>
+                    </div>
+                    <div class="carrusel-item">
+                        <a target="_blank" href="https://www.essa.com.co/site/clientes/inicio/tramites-y-"><img
+                                src="../img/essa.jpg" alt="" /></a>
+                    </div>
+                    <div class="carrusel-item">
+                        <a target="_blank" href="https://www.syc.com.co"><img src="../img/sistemas y computadores.png"
+                                alt="" /></a>
+                    </div>
+                    <div class="carrusel-item">
+                        <a target="_blank"
+                            href="https://www.financieracomultrasan.com.co/es?utm_term=financiera%20comultrasan&utm_campaign=Crédito+virtual+2022+-+Genérico&utm_source=adwords&utm_medium=ppc&hsa_acc=9985789812&hsa_cam=16448755352&hsa_grp=139194298452&hsa_ad=585230733275&hsa_src=g&hsa_tgt=kwd-461145933332&hsa_kw=financiera%20comultrasan&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw08aYBhDlARIsAA_gb0cH1JMNubEADuK7tWOZfrCwI87TU36U9ERTlxU58uaE_XSDGeuN81caAszGEALw_wcB"><img
+                                src="../img/financiera_comultrasan.png" alt="" /></a>
+                    </div>
+                    <div class="carrusel-item">
+                        <a target="_blank" href="https://www.amb.com.co/amb/"><img src="../img/amb.jpg"
+                                alt="" /></a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+
+        <footer class="footer">
+            <h2>Siguenos en nuestras redes sociales !</h2>
+            <div class="grupo-1">
+                <div class="social-links">
+                    <ul>
+                        <li class="social-items"><a target="_blank"
+                                href="https://www.facebook.com/infopuntoencuentro/"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="social-items"><a target="_blank" href="#"><i class="fab fa-twitter-square"></i></a>
+                        </li>
+                        <li class="social-items"><a target="_blank"
+                                href="https://www.instagram.com/puntodeencuentrosip/"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li class="social-items"><a target="_blank"
+                                href="https://co.linkedin.com/in/gonzalo-santoyo-forero-2b8a3029"><i
+                                    class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--Aca va El logo -> Direccion -> Links de socios-->
+
+            <div class="footer-D">
+                <div class="inner_footer">
+                    <div class="logo_container">
+                        <img src="../img/logo-pie.jpeg" alt="logo-pie">
+
+                        <span>gsantoyocomunicaciones@gmail.com</span>
+
+                    </div>
+
+                    <div class="footer_third">
+                        <h1>Dirección y Contacto</h1>
+                        <br>
+                        <li><span>Carrera 28 #33-84 Piso 605 Edificio Paladio, Bucaramanga - Colombia</span></li>
+                        <br>
+                        <li><span>+57 3124873596 </span></li>
+                    </div>
+
+                    <div class="footer_four">
+                        <h1>Paginas Asociadas</h1>
+                        <br>
+                        <div>
+                            <a target="_blank" href="https://windou.co">
+                                <li>Windou.co</li>
+                            </a>
+                            <a target="_blank" href="https://www.rcm1450.com">
+                                <li>Radio Católica Metropolitana</li>
+                            </a>
+                            <a target="_blank"
+                                href="https://www.colombia.com/radio/san-juan-de-giron-88.2-fm-giron-5417">
+                                <li>Radio San Juan Giron 88.2 FM</li>
+                            </a>
+                            <a target="_blank" href="https://troyanoticias.com">
+                                <li>Troya Noticias</li>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="copy-pie">
+                        <div>
+                            <div>
+                                <div>
+                                    <div class="titulo-footer">
+                                        <p>
+                                            <span class="span-copy">Copyright © 2022. Todos los derechos reservados || </span> <a href="html/index.html"><span
+                                                class="span-subtitulo">Sistema Informativo Punto de Encuentro </span></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!--Copyright-->
+
+            
+        </footer>
+    </main>
+    <script src="../js/tarjetas.js"></script>
+    <script src="../js/buscador.js" type="text/javascript"></script>
+    <script src="../js/darkmode.js" type="text/javascript"></script>
+    <script src="../js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
