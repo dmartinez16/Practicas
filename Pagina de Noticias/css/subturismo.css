@@ -785,11 +785,15 @@ hr {
         display: block;
         margin-left: 10px;
     }
-    .menu{
+       #ctn-bus,#ctn-bus input, #box-search{
+        width: 100%;
+    }
+     .menu{
         width: 100%;
         align-items: center;
         justify-content: space-between;
         font-size: 24px;
+        
     }
     .menu #bdark{
         display: block;
@@ -802,13 +806,16 @@ hr {
         position: absolute;
         width: 100%;
         height: 140vh;
-        background: #2c3e50;
+        background: #0754a1;
         top: 60px;
         left: -120%;
         text-align: center;
         transition: all .5s;
-        
     }
+    .menu .item{
+        display: none;
+    }
+    
     .menu ul .item{
         display: block;
         float: none;
@@ -821,10 +828,17 @@ hr {
     }
     .menu .item:hover .desple{
       
-        background: #2c3e50;
+        background: #0754a1;
         margin: 1px;
         line-height: 0cm;
         
+    }
+    .desple .sub-item:hover{
+        border-radius: 6px;
+        padding: 12px 0px;
+        background: #0754a1;
+        justify-content: center;
+        justify-items: center;
     }
     .desple a{
         display: inline;
@@ -845,14 +859,13 @@ hr {
     }
     .item a:hover, .item a.active{
         background: none;
-        color: red;
+        color: orange;
         
     }
     #check:checked ~ .ul{
         left:0;
         
     }
-
 }
 
 

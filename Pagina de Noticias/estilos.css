@@ -850,5 +850,10 @@ hr {
     .footer h2{
         padding-left: 90px;
     }
+    
+    #ctn-bus,#ctn-bus input, #box-search{
+        width: 100%;
+    }
+
 
 }
