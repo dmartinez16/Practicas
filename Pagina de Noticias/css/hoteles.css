@@ -735,7 +735,7 @@ hr {
 }
 
 .post-img-1{
-    background: url(../img/10-playas-mas-hermosas-del-mundo-carrusel-1-b.jpg);
+    background: url(../img/noticia-2-empresarios.png);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -744,7 +744,7 @@ hr {
 }
 
 .post-img-2{
-    background: url(../img/descargar.jpg);
+    background: url(../img/noticia-3-empresarios.png);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -753,7 +753,83 @@ hr {
 }
 
 .post-img-3{
-    background: url(../img/hyatt-zilara-cancun.jpg);
+    background: url(../img/noticia-4-empresarios.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+/*Nuevas cartas*/
+.post-img-4{
+    background: url(../img/noticia-5-empresarios.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+.post-img-5{
+    background: url(../img/noticia-6-empresarios.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+.post-img-6{
+    background: url(../img/noticia-7-empresarios.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-7{
+    background: url(../img/noticia-8-empresarios.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-8{
+    background: url(../img/noticia-9-empresarios.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-9{
+    background: url(../img/noticia-10-empresarios.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-10{
+    background: url(../img/noticia-11-empresarios.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-11{
+    background: url(../img/noticia-12-empresarios.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post-img-12{
+    background: url(../img/noticia-13-empresarios.png);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -781,7 +857,16 @@ hr {
 
 .post:hover .post-img-1,
 .post:hover .post-img-2,
-.post:hover .post-img-3{
+.post:hover .post-img-3,
+.post:hover .post-img-4,
+.post:hover .post-img-5,
+.post:hover .post-img-6,
+.post:hover .post-img-7,
+.post:hover .post-img-8,
+.post:hover .post-img-9,
+.post:hover .post-img-10,
+.post:hover .post-img-11,
+.post:hover .post-img-12{
  transform: scale(1.1);
 }
 
@@ -934,6 +1019,7 @@ hr {
         left: -120%;
         text-align: center;
         transition: all .5s;
+        margin: auto;
     }
     .menu .item{
         display: none;

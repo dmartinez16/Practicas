@@ -755,6 +755,7 @@ hr {
         left: -120%;
         text-align: center;
         transition: all .5s;
+        margin: auto;
     }
     .menu .item{
         display: none;

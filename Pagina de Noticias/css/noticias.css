@@ -172,7 +172,7 @@ body.darkmode{
     position: fixed;
     top:-100px;
     width: 100%;
-    z-index: 12;
+    z-index: 8;
     background: #fff;
     transition: all 600ms;
     
@@ -193,7 +193,7 @@ body.darkmode{
     transform: translate(-50%);
     width: 1202px;
     background: #fff;
-    z-index: 12;
+    z-index: 8;
     list-style: none;
     padding: 0px;
     transition: all 700ms;
@@ -510,6 +510,7 @@ display: flex;
         transition: all .5s;
         margin-left: auto;
         overflow-x: hidden;
+        margin: auto;
     }
     .menu .item{
         display: none;
