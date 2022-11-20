@@ -861,7 +861,7 @@ hr {
 
 /*Nuevas cartas*/
 .post-img-4{
-    background: url(../img/noticia-5-gastronomia.jpg);
+    background: url(../img/noticia-5-empresarios.png);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -870,7 +870,7 @@ hr {
 }
 
 .post-img-5{
-    background: url(../img/noticia-6-gastronomia.jpg);
+    background: url(../img/noticia-5-gastronomia.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -879,7 +879,7 @@ hr {
 }
 
 .post-img-6{
-    background: url(../img/noticia-7-gastronomia.webp);
+    background: url(../img/noticia-6-gastronomia.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -887,7 +887,7 @@ hr {
     transition: .2s;
 }
 .post-img-7{
-    background: url(../img/noticia-8-gastronomia.png);
+    background: url(../img/noticia-7-gastronomia.webp);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -895,7 +895,7 @@ hr {
     transition: .2s;
 }
 .post-img-8{
-    background: url(../img/noticia-9-gastronomia.jpg);
+    background: url(../img/noticia-8-gastronomia.png);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -903,7 +903,7 @@ hr {
     transition: .2s;
 }
 .post-img-9{
-    background: url(../img/noticia-10-gastronomia.jpg);
+    background: url(../img/noticia-9-gastronomia.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -987,7 +987,7 @@ hr {
 
 .post-body p{
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .post-body .post-link{
