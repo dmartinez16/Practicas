@@ -886,7 +886,7 @@ hr {
 }
 
 .post-img-1{
-    background: url(../img/noticia-2-empresarios.png);
+    background: url(../img/noticia-12-naturaleza.png);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -895,7 +895,7 @@ hr {
 }
 
 .post-img-2{
-    background: url(../img/noticia-3-empresarios.png);
+    background: url(../img/noticia-11-naturaleza.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -904,7 +904,7 @@ hr {
 }
 
 .post-img-3{
-    background: url(../img/noticia-4-empresarios.png);
+    background: url(../img/noticia-10-naturaleza.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -914,7 +914,7 @@ hr {
 
 /*Nuevas cartas*/
 .post-img-4{
-    background: url(../img/noticia-5-empresarios.png);
+    background: url(../img/noticia-9-naturaleza.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -923,7 +923,7 @@ hr {
 }
 
 .post-img-5{
-    background: url(../img/noticia-6-empresarios.png);
+    background: url(../img/noticia-8-naturaleza.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -932,7 +932,7 @@ hr {
 }
 
 .post-img-6{
-    background: url(../img/noticia-7-empresarios.png);
+    background: url(../img/noticia-7-naturaleza.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -940,7 +940,7 @@ hr {
     transition: .2s;
 }
 .post-img-7{
-    background: url(../img/noticia-8-empresarios.png);
+    background: url(../img/noticia-6-naturaleza.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -948,7 +948,7 @@ hr {
     transition: .2s;
 }
 .post-img-8{
-    background: url(../img/noticia-9-empresarios.png);
+    background: url(../img/noticia-5-naturaleza.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -956,7 +956,7 @@ hr {
     transition: .2s;
 }
 .post-img-9{
-    background: url(../img/noticia-10-empresarios.png);
+    background: url(../img/noticia-4-naturaleza.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -964,7 +964,7 @@ hr {
     transition: .2s;
 }
 .post-img-10{
-    background: url(../img/noticia-11-empresarios.png);
+    background: url(../img/noticia-3-naturaleza.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -972,7 +972,7 @@ hr {
     transition: .2s;
 }
 .post-img-11{
-    background: url(../img/noticia-12-empresarios.png);
+    background: url(../img/noticia-2-naturaleza.jpeg);
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -980,7 +980,7 @@ hr {
     transition: .2s;
 }
 .post-img-12{
-    background: url(../img/noticia-13-empresarios.png);
+    background: url(../img/noticia-1-naturaleza.jpg);
     width: 100%;
     height: 200px;
     background-size: cover;
